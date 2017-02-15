@@ -22,13 +22,14 @@ Note: We do not store Gmail or Yahoo email passwords on our servers.
 
 ## Key Features
 
--- Push notification on email open
+- Push notification on email open
 
--- Ability to create email account
+- Ability to create email account
 
--- Ability to login via Gmail or Yahoo email account
+- Ability to login via Gmail or Yahoo email account
 
 
 ## Key classes
-```https://github.com/mozadeh/smartmail/tree/master/bin/classes/com/smartikyapps/smartmail```
+
+link to key classes used in app: ```https://github.com/mozadeh/smartmail/tree/master/bin/classes/com/smartikyapps/smartmail```
 
