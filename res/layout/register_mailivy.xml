@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/colors"
+        android:layout_below="@+id/tabs"
+        android:layout_weight="1" 
+        
+        >
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/pager_title_strip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#008031"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:textColor="#fff" />
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        
+        android:padding="25dp" >
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:background="@drawable/newpollbottom_bg_selector"
+            android:text="Back"
+            android:textColor="@drawable/newpollbottom_text_selector"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/noButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/newpollbottom_bg_selector"
+            android:text="Next"
+            android:textColor="@drawable/newpollbottom_text_selector"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonCreate"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/newpollbottom_bg_selector"
+            android:text="Create"
+            android:textColor="@drawable/newpollbottom_text_selector"
+            android:textSize="18sp"
+            android:visibility="gone" />
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/loginbackground1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        android:gravity="center_horizontal|top"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/logintop"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username or Gmail/Yahoo Email"
+            android:textColor="@android:color/white" />
+
+        <FrameLayout
+            android:layout_width="290dp"
+            android:layout_height="50dp" >
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/edittext_modified_states"
+                android:ems="10"
+                android:hint="username or username@gmail.com"
+                android:inputType="textWebEmailAddress"
+                android:textSize="17sp"
+                android:lines="1"
+                android:paddingRight="25dp"
+                android:singleLine="true" >
+
+                <requestFocus />
+            </EditText>
+
+            <ImageView
+                android:id="@+id/clearusername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:src="@drawable/clear"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:text="Password"
+            android:textColor="@android:color/white" />
+
+        <FrameLayout
+            android:layout_width="290dp"
+            android:layout_height="50dp" >
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:textSize="17sp"
+                android:background="@drawable/edittext_modified_states"
+                android:ems="10"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:lines="1"
+                android:paddingRight="25dp"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/clearpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:src="@drawable/clear"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:background="@drawable/newpollbottom_bg_selector"
+                android:gravity="center"
+                android:text="Sign Up"
+                android:textColor="@drawable/newpollbottom_text_selector"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/newpollbottom_bg_selector"
+                android:gravity="center"
+                android:text="Sign In"
+                android:textColor="@drawable/newpollbottom_text_selector"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/forgotpassword"
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:background="@drawable/transparent"
+            android:gravity="center"
+            android:text="Forgot Password"
+            android:textColor="@drawable/newpollbottom_text_selector"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/feedback"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/transparent"
+            android:gravity="center"
+            android:text="Send Feedback"
+            android:textColor="@drawable/newpollbottom_text_selector"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

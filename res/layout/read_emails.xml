@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff" >
+
+    <LinearLayout
+        android:id="@+id/top_layover"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/TopLL"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/topgradient"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/loggedinuser"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="10dp"
+                android:text="Logged in as: User"
+                android:textColor="#fff"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center_vertical|right"
+                android:paddingRight="15dp"
+                android:text="Logout"
+                
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <android.support.v4.widget.DrawerLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <!--
+            <com.astuetz.viewpager.extensions.PagerSlidingTabStrip
+                android:id="@+id/pager_title_strip"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#006b49"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+            -->
+
+            <android.support.v4.view.ViewPager
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <android.support.v4.view.PagerTabStrip
+                    android:id="@+id/pager_title_strip"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#006b49"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="0dp"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+            </android.support.v4.view.ViewPager>
+
+            <FrameLayout
+                android:id="@+id/frame_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ListView
+                android:id="@+id/list_slidermenu"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="@color/list_background"
+                android:choiceMode="singleChoice"
+                android:divider="@color/list_divider"
+                android:dividerHeight="1dp"
+                android:listSelector="@drawable/list_selector" />
+        </android.support.v4.widget.DrawerLayout>
+
+        <!--
+        <LinearLayout
+            android:id="@+id/bottom_layover"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="0"
+            android:background="@drawable/bgradient"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/compose"
+                style="@style/WhiteText"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/black_button"
+                android:gravity="center"
+                android:onClick="addEmail"
+                android:text="Compose"
+                android:textSize="18sp" />
+        </LinearLayout>
+        -->
+    </LinearLayout>
+
+</RelativeLayout>

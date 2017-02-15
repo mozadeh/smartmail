@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"  >
+
+    <item
+        android:id="@+id/action_newmail"
+        android:icon="@drawable/ic_action_new_email"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="NewMail"/>
+   
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="Menu"
+        />
+    
+    <item
+        android:id="@+id/Refresh"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="Refresh"
+        />
+    
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="Logout"
+        />
+    
+
+</menu>

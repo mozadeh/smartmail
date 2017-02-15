@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <TextView
+        android:id="@+id/recoveryTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Please Enter an Email for Password Recovery"
+        android:textSize="19sp" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/recoveryET"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_modified_states"
+            android:ems="10"
+            android:hint="email for password recovery"
+            android:inputType="textEmailAddress"
+            android:lines="1"
+            android:paddingRight="25dp"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/clearrecoveryET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/clear"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

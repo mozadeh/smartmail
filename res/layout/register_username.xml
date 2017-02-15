@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp" >
+
+    <TextView
+        android:id="@+id/usernameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="15dp"
+        android:text="Please Choose a Username"
+        android:textSize="19sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:paddingTop="15dp"
+        android:orientation="horizontal" >
+        
+         <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/usernameET"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/apptheme_edit_text_holo_light"
+            android:ems="10"
+            android:hint="John.Smith"
+            android:inputType="textPersonName"
+            android:lines="1"
+            android:textSize="17sp"
+            android:paddingRight="25dp"
+            android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+        
+         <ImageView
+            android:id="@+id/clearusernameET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/clear"
+            android:visibility="gone" />
+    </FrameLayout>
+        
+        <TextView 
+            android:id="@+id/emailaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="mail"
+            android:textSize="17sp"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>

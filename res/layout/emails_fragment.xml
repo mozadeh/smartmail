@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f0f0f0" >
+    
+
+    
+    
+
+    <LinearLayout
+        android:id="@+id/top_layover"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#006b49" />
+
+        <TextView
+            android:id="@+id/nosentmessages"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/composebackground"
+            android:divider="@android:color/transparent"
+            android:gravity="center"
+            android:text="You have no sent messages \n press here to begin"
+            android:textColor="#4c4c4c"
+            android:textSize="20sp" />
+        
+        
+
+        <com.costum.android.widget.PullAndLoadListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/composebackground"
+            />
+        
+        
+        
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/transparentshadow"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shadow1" />
+    
+
+
+    
+
+</RelativeLayout>

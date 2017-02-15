@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#d7d7d7" >
+    
+    <!-- <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Settings"
+       android:textSize="20sp"
+       android:layout_centerHorizontal="true"
+       android:gravity="top"
+       android:layout_marginTop="20dp"
+        /> -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+       android:gravity="top"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:background="@drawable/settingborder"
+            android:layout_marginBottom="30dp" 
+            >
+
+            <TextView
+                android:id="@+id/sendnotificationtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:text="Enable Notifications"
+                android:layout_gravity="center"
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/sendnotificationbutton"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                android:layout_weight="0"
+                android:src="@drawable/onbutton" 
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+        
+        <!-- <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="30dp"  >
+
+            <TextView
+                android:id="@+id/readsoundtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:text="Play sound when email is read"
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/readsoundbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="@android:color/transparent"
+                android:src="@drawable/onbutton" />
+        </LinearLayout> -->
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:background="@drawable/settingborder"
+            android:layout_marginBottom="30dp"  >
+
+            <TextView
+                android:id="@+id/sendsoundtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:text="Enable Sounds"
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/sendsoundbutton"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                android:layout_weight="0"
+                android:background="@android:color/transparent"
+                android:src="@drawable/onbutton" />
+        </LinearLayout>
+        
+       <!-- <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:background="@android:color/darker_gray"  >
+
+            <TextView
+                android:id="@+id/receivesoundtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:text="Play sound when email is received"
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/receivesoundbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="@android:color/transparent"
+                android:src="@drawable/onbutton" />
+        </LinearLayout> --> 
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:paddingBottom="40dp" >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/newpollbottom_bg_selector"
+            android:text="Back"
+            android:textColor="@drawable/newpollbottom_text_selector"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</RelativeLayout>

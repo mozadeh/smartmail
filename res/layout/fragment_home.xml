@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- <LinearLayout
+        android:id="@+id/bottom_layover"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="0"
+        android:background="@drawable/bgradient"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="0"
+        android:gravity="center|top"
+        android:orientation="vertical" >
+        
+        <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="6dp"
+        android:background="#4e4e4e"
+         />
+
+    <Button
+        android:id="@+id/compose"
+        style="@style/WhiteText"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:background="@drawable/black_button"
+        android:gravity="center"
+        android:onClick="addEmail"
+        android:text="Compose"
+        android:textSize="18sp" />
+       </LinearLayout> -->
+
+</RelativeLayout>
