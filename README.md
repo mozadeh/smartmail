@@ -1,3 +1,7 @@
+#Smart Mail
+
+App is currently deactivated but the listing on appstore is: ```https://play.google.com/store/apps/details?id=com.smartikyapps.smartmail```
+
 Take control of your emails!
 
 Have you ever sent an Email to a colleague, girlfriend, boyfriend, boss or family member that you wish you could delete (or change before it's read). Well now you can! Smart Mail solves three key problems existing email services have:
