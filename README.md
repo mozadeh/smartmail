@@ -1,8 +1,8 @@
 #Smart Mail
 
-## App store listing:
+## App store listing
 
-```https://play.google.com/store/apps/details?id=com.smartikyapps.smartmail```
+link to Google Play listing: ```https://play.google.com/store/apps/details?id=com.smartikyapps.smartmail```
 
 ## Description
 
