@@ -20,13 +20,29 @@ You can either create a new email account or login using your Gmail or Yahoo Mai
 
 Note: We do not store Gmail or Yahoo email passwords on our servers.
 
+
+## Libraries / Tutorials / APIs used
+
+- Google Analytics Android SDK ```https://developers.google.com/analytics/devguides/collection/android/v4/```
+
+- Android Pull to Refresh Loadmore listview ```https://github.com/incube8/android-pullToRefresh-loadMore```
+
+- IMAP Store (Javamail) ```https://javamail.java.net/nonav/docs/api/com/sun/mail/imap/IMAPStore.html```
+
+- Android Push Notification Tutorial ```https://www.tutorialspoint.com/android/android_push_notification.htm```
+
+- Navigation Drawer ```http://www.androidhive.info/2013/11/android-sliding-menu-using-navigation-drawer/```
+
+- Screenshot Machine ```https://www.screenshotmachine.com```
+
+
 ## Key Features
 
 - Push notification on email open
 
-- Ability to create email account
+- Ability to create an email account
 
-- Ability to login via Gmail or Yahoo email account
+- Ability to login via your Gmail or Yahoo email account
 
 
 ## Key classes
@@ -226,57 +242,11 @@ link to key classes used in app: ```https://github.com/mozadeh/smartmail/tree/ma
 │   │   └── crunch
 │   │       ├── drawable
 │   │       │   ├── camerabutton.png
-│   │       │   ├── clear.png
-│   │       │   ├── composebackground1.png
-│   │       │   ├── expand.png
-│   │       │   ├── expand_unread.png
-│   │       │   ├── fail.png
-│   │       │   ├── gallerybutton.png
-│   │       │   ├── imageb.png
-│   │       │   ├── logintop.png
-│   │       │   ├── offbutton.png
-│   │       │   ├── onbutton.png
-│   │       │   ├── shadow1.png
-│   │       │   ├── success.png
-│   │       │   ├── textfield_default.9.png
-│   │       │   ├── textfield_selected.9.png
-│   │       │   ├── themes2.png
-│   │       │   ├── themes_masterpiece.png
-│   │       │   ├── themes_oldpaper.png
-│   │       │   ├── themes_plain.png
-│   │       │   ├── themes_whiteboard.png
-│   │       │   ├── threedlogo.png
+│   │       │   ├── ...
 │   │       │   └── topmenugradient.png
 │   │       ├── drawable-hdpi
 │   │       │   ├── apptheme_textfield_activated_holo_light.9.png
-│   │       │   ├── apptheme_textfield_default_holo_light.9.png
-│   │       │   ├── apptheme_textfield_disabled_focused_holo_light.9.png
-│   │       │   ├── apptheme_textfield_disabled_holo_light.9.png
-│   │       │   ├── apptheme_textfield_focused_holo_light.9.png
-│   │       │   ├── arrowstars.png
-│   │       │   ├── ic_about.png
-│   │       │   ├── ic_action_back.png
-│   │       │   ├── ic_action_discard.png
-│   │       │   ├── ic_action_edit.png
-│   │       │   ├── ic_action_new_email.png
-│   │       │   ├── ic_action_overflow.png
-│   │       │   ├── ic_action_previous_item.png
-│   │       │   ├── ic_action_reply.png
-│   │       │   ├── ic_action_send2.png
-│   │       │   ├── ic_action_send_now.png
-│   │       │   ├── ic_action_settings.png
-│   │       │   ├── ic_communities.png
-│   │       │   ├── ic_compose.png
-│   │       │   ├── ic_drawer.png
-│   │       │   ├── ic_home.png
-│   │       │   ├── ic_launcher.png
-│   │       │   ├── ic_logout.png
-│   │       │   ├── ic_navigation_drawer.png
-│   │       │   ├── ic_pages.png
-│   │       │   ├── ic_password.png
-│   │       │   ├── ic_people.png
-│   │       │   ├── ic_photos.png
-│   │       │   ├── ic_stat_logonoti.png
+│   │       │   ├── ...
 │   │       │   └── ic_whats_hot.png
 │   │       ├── drawable-ldpi
 │   │       │   ├── ic_about.png
@@ -286,76 +256,17 @@ link to key classes used in app: ```https://github.com/mozadeh/smartmail/tree/ma
 │   │       │   └── ic_stat_logonoti.png
 │   │       ├── drawable-mdpi
 │   │       │   ├── apptheme_textfield_activated_holo_light.9.png
-│   │       │   ├── apptheme_textfield_default_holo_light.9.png
-│   │       │   ├── apptheme_textfield_disabled_focused_holo_light.9.png
-│   │       │   ├── apptheme_textfield_disabled_holo_light.9.png
-│   │       │   ├── apptheme_textfield_focused_holo_light.9.png
-│   │       │   ├── ic_about.png
-│   │       │   ├── ic_action_back.png
-│   │       │   ├── ic_action_discard.png
-│   │       │   ├── ic_action_edit.png
-│   │       │   ├── ic_action_new_email.png
-│   │       │   ├── ic_action_overflow.png
-│   │       │   ├── ic_action_previous_item.png
-│   │       │   ├── ic_action_reply.png
-│   │       │   ├── ic_action_send2.png
-│   │       │   ├── ic_action_send_now.png
-│   │       │   ├── ic_action_settings.png
-│   │       │   ├── ic_compose.png
-│   │       │   ├── ic_launcher.png
-│   │       │   ├── ic_logout.png
-│   │       │   ├── ic_navigation_drawer.png
+│   │       │   ├── ...
 │   │       │   └── ic_stat_logonoti.png
 │   │       ├── drawable-xhdpi
 │   │       │   ├── apptheme_textfield_activated_holo_light.9.png
 │   │       │   ├── apptheme_textfield_default_holo_light.9.png
-│   │       │   ├── apptheme_textfield_disabled_focused_holo_light.9.png
-│   │       │   ├── apptheme_textfield_disabled_holo_light.9.png
-│   │       │   ├── apptheme_textfield_focused_holo_light.9.png
-│   │       │   ├── ic_about.png
-│   │       │   ├── ic_action_back.png
-│   │       │   ├── ic_action_discard.png
-│   │       │   ├── ic_action_edit.png
-│   │       │   ├── ic_action_new_email.png
-│   │       │   ├── ic_action_overflow.png
-│   │       │   ├── ic_action_previous_item.png
-│   │       │   ├── ic_action_reply.png
-│   │       │   ├── ic_action_send2.png
-│   │       │   ├── ic_action_send_now.png
-│   │       │   ├── ic_action_settings.png
-│   │       │   ├── ic_compose.png
-│   │       │   ├── ic_launcher.png
-│   │       │   ├── ic_logout.png
-│   │       │   ├── ic_navigation_drawer.png
+│   │       │   ├── ...
 │   │       │   └── ic_stat_logonoti.png
 │   │       ├── drawable-xxhdpi
 │   │       │   ├── apptheme_textfield_activated_holo_light.9.png
 │   │       │   ├── apptheme_textfield_default_holo_light.9.png
-│   │       │   ├── apptheme_textfield_disabled_focused_holo_light.9.png
-│   │       │   ├── apptheme_textfield_disabled_holo_light.9.png
-│   │       │   ├── apptheme_textfield_focused_holo_light.9.png
-│   │       │   ├── ic_about.png
-│   │       │   ├── ic_action_back.png
-│   │       │   ├── ic_action_discard.png
-│   │       │   ├── ic_action_edit.png
-│   │       │   ├── ic_action_new_email.png
-│   │       │   ├── ic_action_overflow.png
-│   │       │   ├── ic_action_previous_item.png
-│   │       │   ├── ic_action_reply.png
-│   │       │   ├── ic_action_send2.png
-│   │       │   ├── ic_action_send_now.png
-│   │       │   ├── ic_action_settings.png
-│   │       │   ├── ic_communities.png
-│   │       │   ├── ic_compose.png
-│   │       │   ├── ic_drawer.png
-│   │       │   ├── ic_home.png
-│   │       │   ├── ic_launcher.png
-│   │       │   ├── ic_logout.png
-│   │       │   ├── ic_navigation_drawer.png
-│   │       │   ├── ic_pages.png
-│   │       │   ├── ic_people.png
-│   │       │   ├── ic_photos.png
-│   │       │   ├── ic_stat_logonoti.png
+│   │       │   ├── ...
 │   │       │   └── ic_whats_hot.png
 │   │       └── drawable-xxxhdpi
 │   │           └── ic_launcher.png
@@ -396,176 +307,27 @@ link to key classes used in app: ```https://github.com/mozadeh/smartmail/tree/ma
 │   │   └── transition_top_to_down_out.xml
 │   ├── drawable
 │   │   ├── a.xml
-│   │   ├── apptheme_edit_text_holo_light.xml
-│   │   ├── b.xml
-│   │   ├── bgradient.xml
-│   │   ├── black_button.xml
-│   │   ├── blacktransparent.xml
-│   │   ├── blue_gradient.xml
-│   │   ├── border.xml
-│   │   ├── camerabutton.png
-│   │   ├── clear.png
-│   │   ├── composebackground.jpg
-│   │   ├── composebackground1.png
-│   │   ├── counter_bg.xml
-│   │   ├── dialogtransparent.xml
-│   │   ├── edittext_modified_states.xml
-│   │   ├── expand.png
-│   │   ├── expand_unread.png
-│   │   ├── fail.png
-│   │   ├── gallerybutton.png
-│   │   ├── imageb.png
-│   │   ├── list_item_bg_normal.xml
-│   │   ├── list_item_bg_pressed.xml
-│   │   ├── list_selector.xml
-│   │   ├── listviewbackground.jpg
-│   │   ├── loginbackground1.jpg
-│   │   ├── loginbackground2.jpg
-│   │   ├── loginbackground3.jpg
-│   │   ├── logintop.png
-│   │   ├── newpollbottom_bg_selector.xml
-│   │   ├── newpollbottom_text_selector.xml
-│   │   ├── offbutton.png
-│   │   ├── oldlinedpaper.jpg
-│   │   ├── onbutton.png
-│   │   ├── post_background_style.xml
-│   │   ├── post_background_style_unread.xml
-│   │   ├── post_border_style.xml
-│   │   ├── post_border_style_unread.xml
-│   │   ├── radiobuttonbackground.xml
-│   │   ├── registerbackground1.jpg
-│   │   ├── registerbackground2.jpg
-│   │   ├── registerbackground3.jpg
-│   │   ├── roundedgebutton.xml
-│   │   ├── roundedgebuttonselected.xml
-│   │   ├── settingborder.xml
-│   │   ├── shadow1.png
-│   │   ├── success.png
-│   │   ├── textfield_default.9.png
-│   │   ├── textfield_selected.9.png
-│   │   ├── theme_text_selector.xml
-│   │   ├── themes.jpg
-│   │   ├── themes2.png
-│   │   ├── themes_masterpiece.png
-│   │   ├── themes_oldpaper.png
-│   │   ├── themes_plain.png
-│   │   ├── themes_whiteboard.png
-│   │   ├── threedlogo.png
-│   │   ├── topborder.xml
-│   │   ├── topgradient.xml
-│   │   ├── topmenugradient.png
-│   │   ├── transparent.xml
+│   │   ├── ...
 │   │   └── whiteboardb.jpg
 │   ├── drawable-hdpi
 │   │   ├── apptheme_textfield_activated_holo_light.9.png
-│   │   ├── apptheme_textfield_default_holo_light.9.png
-│   │   ├── apptheme_textfield_disabled_focused_holo_light.9.png
-│   │   ├── apptheme_textfield_disabled_holo_light.9.png
-│   │   ├── apptheme_textfield_focused_holo_light.9.png
-│   │   ├── arrowstars.png
-│   │   ├── ic_about.png
-│   │   ├── ic_action_back.png
-│   │   ├── ic_action_discard.png
-│   │   ├── ic_action_edit.png
-│   │   ├── ic_action_new_email.png
-│   │   ├── ic_action_overflow.png
-│   │   ├── ic_action_previous_item.png
-│   │   ├── ic_action_reply.png
-│   │   ├── ic_action_send2.png
-│   │   ├── ic_action_send_now.png
-│   │   ├── ic_action_settings.png
-│   │   ├── ic_communities.png
-│   │   ├── ic_compose.png
-│   │   ├── ic_drawer.png
-│   │   ├── ic_feedback
-│   │   ├── ic_home.png
-│   │   ├── ic_launcher.png
-│   │   ├── ic_logout.png
-│   │   ├── ic_navigation_drawer.png
-│   │   ├── ic_pages.png
-│   │   ├── ic_password.png
-│   │   ├── ic_people.png
-│   │   ├── ic_photos.png
-│   │   ├── ic_stat_logonoti.png
+│   │   ├── ...
 │   │   └── ic_whats_hot.png
 │   ├── drawable-ldpi
 │   │   ├── ic_about.png
-│   │   ├── ic_compose.png
-│   │   ├── ic_launcher.png
-│   │   ├── ic_logout.png
+│   │   ├── ...
 │   │   └── ic_stat_logonoti.png
 │   ├── drawable-mdpi
 │   │   ├── apptheme_textfield_activated_holo_light.9.png
-│   │   ├── apptheme_textfield_default_holo_light.9.png
-│   │   ├── apptheme_textfield_disabled_focused_holo_light.9.png
-│   │   ├── apptheme_textfield_disabled_holo_light.9.png
-│   │   ├── apptheme_textfield_focused_holo_light.9.png
-│   │   ├── ic_about.png
-│   │   ├── ic_action_back.png
-│   │   ├── ic_action_discard.png
-│   │   ├── ic_action_edit.png
-│   │   ├── ic_action_new_email.png
-│   │   ├── ic_action_overflow.png
-│   │   ├── ic_action_previous_item.png
-│   │   ├── ic_action_reply.png
-│   │   ├── ic_action_send2.png
-│   │   ├── ic_action_send_now.png
-│   │   ├── ic_action_settings.png
-│   │   ├── ic_compose.png
-│   │   ├── ic_launcher.png
-│   │   ├── ic_logout.png
-│   │   ├── ic_navigation_drawer.png
+│   │   ├── ...
 │   │   └── ic_stat_logonoti.png
 │   ├── drawable-xhdpi
 │   │   ├── apptheme_textfield_activated_holo_light.9.png
-│   │   ├── apptheme_textfield_default_holo_light.9.png
-│   │   ├── apptheme_textfield_disabled_focused_holo_light.9.png
-│   │   ├── apptheme_textfield_disabled_holo_light.9.png
-│   │   ├── apptheme_textfield_focused_holo_light.9.png
-│   │   ├── ic_about.png
-│   │   ├── ic_action_back.png
-│   │   ├── ic_action_discard.png
-│   │   ├── ic_action_edit.png
-│   │   ├── ic_action_new_email.png
-│   │   ├── ic_action_overflow.png
-│   │   ├── ic_action_previous_item.png
-│   │   ├── ic_action_reply.png
-│   │   ├── ic_action_send2.png
-│   │   ├── ic_action_send_now.png
-│   │   ├── ic_action_settings.png
-│   │   ├── ic_compose.png
-│   │   ├── ic_launcher.png
-│   │   ├── ic_logout.png
-│   │   ├── ic_navigation_drawer.png
+│   │   ├── ...
 │   │   └── ic_stat_logonoti.png
 │   ├── drawable-xxhdpi
 │   │   ├── apptheme_textfield_activated_holo_light.9.png
-│   │   ├── apptheme_textfield_default_holo_light.9.png
-│   │   ├── apptheme_textfield_disabled_focused_holo_light.9.png
-│   │   ├── apptheme_textfield_disabled_holo_light.9.png
-│   │   ├── apptheme_textfield_focused_holo_light.9.png
-│   │   ├── ic_about.png
-│   │   ├── ic_action_back.png
-│   │   ├── ic_action_discard.png
-│   │   ├── ic_action_edit.png
-│   │   ├── ic_action_new_email.png
-│   │   ├── ic_action_overflow.png
-│   │   ├── ic_action_previous_item.png
-│   │   ├── ic_action_reply.png
-│   │   ├── ic_action_send2.png
-│   │   ├── ic_action_send_now.png
-│   │   ├── ic_action_settings.png
-│   │   ├── ic_communities.png
-│   │   ├── ic_compose.png
-│   │   ├── ic_drawer.png
-│   │   ├── ic_home.png
-│   │   ├── ic_launcher.png
-│   │   ├── ic_logout.png
-│   │   ├── ic_navigation_drawer.png
-│   │   ├── ic_pages.png
-│   │   ├── ic_people.png
-│   │   ├── ic_photos.png
-│   │   ├── ic_stat_logonoti.png
+│   │   ├── ...
 │   │   └── ic_whats_hot.png
 │   ├── drawable-xxxhdpi
 │   │   └── ic_launcher.png
