@@ -49,7 +49,7 @@ Note: We do not store Gmail or Yahoo email passwords on our servers.
 
 link to key classes used in app: ```https://github.com/mozadeh/smartmail/tree/master/bin/classes/com/smartikyapps/smartmail```
 
-## Class structure
+## File structure
 
 ```
 /
