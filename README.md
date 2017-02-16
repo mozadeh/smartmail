@@ -1,5 +1,7 @@
 #Smart Mail
 
+![alt tag](https://raw.githubusercontent.com/mozadeh/smartmail/master/new_logo.jpg)
+
 ## App store listing
 
 link to Google Play listing: ```https://play.google.com/store/apps/details?id=com.smartikyapps.smartmail```
