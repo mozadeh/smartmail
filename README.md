@@ -267,7 +267,6 @@ link to key classes used in app: ```https://github.com/mozadeh/smartmail/tree/ma
 │   │       │   └── ic_stat_logonoti.png
 │   │       ├── drawable-xxhdpi
 │   │       │   ├── apptheme_textfield_activated_holo_light.9.png
-│   │       │   ├── apptheme_textfield_default_holo_light.9.png
 │   │       │   ├── ...
 │   │       │   └── ic_whats_hot.png
 │   │       └── drawable-xxxhdpi
