@@ -25,17 +25,17 @@ Note: We do not store Gmail or Yahoo email passwords on our servers.
 
 ## Libraries / Tutorials / APIs used
 
-- Google Analytics Android SDK ```https://developers.google.com/analytics/devguides/collection/android/v4/```
+- Google Analytics Android SDK [https://developers.google.com/analytics/devguides/collection/android/v4/](https://developers.google.com/analytics/devguides/collection/android/v4/)
 
-- Android Pull to Refresh Loadmore listview ```https://github.com/incube8/android-pullToRefresh-loadMore```
+- Android Pull to Refresh Loadmore listview [https://github.com/incube8/android-pullToRefresh-loadMore](https://github.com/incube8/android-pullToRefresh-loadMore)
 
-- IMAP Store (Javamail) ```https://javamail.java.net/nonav/docs/api/com/sun/mail/imap/IMAPStore.html```
+- IMAP Store (Javamail) [https://javamail.java.net/nonav/docs/api/com/sun/mail/imap/IMAPStore.html](https://javamail.java.net/nonav/docs/api/com/sun/mail/imap/IMAPStore.html)
 
-- Android Push Notification Tutorial ```https://www.tutorialspoint.com/android/android_push_notification.htm```
+- Android Push Notification Tutorial [https://www.tutorialspoint.com/android/android_push_notification.htm](https://www.tutorialspoint.com/android/android_push_notification.htm)
 
-- Navigation Drawer ```http://www.androidhive.info/2013/11/android-sliding-menu-using-navigation-drawer/```
+- Navigation Drawer [http://www.androidhive.info/2013/11/android-sliding-menu-using-navigation-drawer/](http://www.androidhive.info/2013/11/android-sliding-menu-using-navigation-drawer/)
 
-- Screenshot Machine ```https://www.screenshotmachine.com```
+- Screenshot Machine [https://www.screenshotmachine.com](https://www.screenshotmachine.com)
 
 
 ## Key Features
@@ -49,7 +49,7 @@ Note: We do not store Gmail or Yahoo email passwords on our servers.
 
 ## Key classes
 
-link to key classes used in app: ```https://github.com/mozadeh/smartmail/tree/master/bin/classes/com/smartikyapps/smartmail```
+link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/master/bin/classes/com/smartikyapps/smartmail](https://github.com/mozadeh/smartmail/tree/master/bin/classes/com/smartikyapps/smartmail)
 
 ## File structure
 
