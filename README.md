@@ -6,6 +6,10 @@
 
 link to Google Play listing: [https://play.google.com/store/apps/details?id=com.smartikyapps.smartmail](https://play.google.com/store/apps/details?id=com.smartikyapps.smartmail)
 
+## Team
+
+- Mohammad Ghasemzadeh (solo project)
+
 ## Description
 
 Take control of your emails!
