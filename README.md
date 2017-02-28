@@ -63,17 +63,7 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 ├── README.md
 ├── assets
 │   ├── Roboto-Bold.ttf
-│   ├── Roboto-BoldCondensed.ttf
-│   ├── Roboto-BoldCondensedItalic.ttf
-│   ├── Roboto-Condensed.ttf
-│   ├── Roboto-CondensedItalic.ttf
-│   ├── masterpiecedefaultblur.png
-│   ├── oldlinedpaper.jpg
-│   ├── oldlinedpaper_burned.jpg
-│   ├── oldlinedpaper_photo_mobile.jpg
-│   ├── plain.png
-│   ├── whiteboard.jpg
-│   ├── whiteboard_erased.jpg
+│   ├── ...
 │   └── whiteboard_photo_mobile.jpg
 ├── bin
 │   ├── AndroidManifest.xml
