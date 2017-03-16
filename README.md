@@ -292,13 +292,7 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   ├── anim
 │   │   ├── list_layout_controller.xml
 │   │   ├── scale.xml
-│   │   ├── transition_down_to_up.xml
-│   │   ├── transition_left_to_right.xml
-│   │   ├── transition_left_to_right_in.xml
-│   │   ├── transition_left_to_right_out.xml
-│   │   ├── transition_right_to_left.xml
-│   │   ├── transition_right_to_left_out.xml
-│   │   ├── transition_tohomefragment.xml
+│   │   ├── ...
 │   │   └── transition_top_to_down_out.xml
 │   ├── drawable
 │   │   ├── a.xml
