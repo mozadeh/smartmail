@@ -119,8 +119,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   │               ├── EmailsFragment$4$3.class
 │   │               ├── EmailsFragment$4.class
 │   │               ├── EmailsFragment$5.class
-│   │               ├── EmailsFragment$6.class
-│   │               ├── EmailsFragment$7.class
 │   │               ├── EmailsFragment$DeleteEmail.class
 │   │               ├── EmailsFragment$DeleteEmailInbox.class
 │   │               ├── EmailsFragment$LoadEmails.class
@@ -179,8 +177,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   │               ├── Register$2.class
 │   │               ├── Register$3.class
 │   │               ├── Register$4.class
-│   │               ├── Register$5.class
-│   │               ├── Register$6.class
 │   │               ├── Register$CreateUser.class
 │   │               ├── Register$ItemFragment$CheckUserName.class
 │   │               ├── Register$ItemFragment.class
