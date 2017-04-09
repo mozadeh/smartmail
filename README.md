@@ -198,7 +198,7 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   │               │   ├── ChangepasswordFragment$ChangePassword.class
 │   │               │   ├── ChangepasswordFragment.class
 │   │               │   ├── FeedbackFragment$1.class
-│   │               │   ├── FeedbackFragment$2.class
+│   │               │   ├── ...
 │   │               │   ├── FeedbackFragment$SendFeedback.class
 │   │               │   ├── FeedbackFragment.class
 │   │               │   ├── HomeFragment.class
