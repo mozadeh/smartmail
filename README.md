@@ -114,9 +114,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   │               ├── EmailsFragment$1.class
 │   │               ├── EmailsFragment$2.class
 │   │               ├── EmailsFragment$3.class
-│   │               ├── EmailsFragment$4$1.class
-│   │               ├── EmailsFragment$4$2.class
-│   │               ├── EmailsFragment$4$3.class
 │   │               ├── EmailsFragment$4.class
 │   │               ├── EmailsFragment$5.class
 │   │               ├── EmailsFragment$DeleteEmail.class
