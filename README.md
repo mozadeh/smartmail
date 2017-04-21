@@ -125,8 +125,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   │               ├── Log.class
 │   │               ├── Login$1.class
 │   │               ├── Login$2.class
-│   │               ├── Login$3.class
-│   │               ├── Login$4.class
 │   │               ├── Login$AttemptLogin.class
 │   │               ├── Login$Sendpassword.class
 │   │               ├── Login$readContacts.class
