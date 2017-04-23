@@ -89,8 +89,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   │               ├── AddEmail$4.class
 │   │               ├── AddEmail$5.class
 │   │               ├── AddEmail$6.class
-│   │               ├── AddEmail$7.class
-│   │               ├── AddEmail$8.class
 │   │               ├── AddEmail$ImageGalleryTask.class
 │   │               ├── AddEmail$PostEmail.class
 │   │               ├── AddEmail.class
@@ -187,7 +185,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   │               │   ├── ChangepasswordFragment$2.class
 │   │               │   ├── ChangepasswordFragment$3.class
 │   │               │   ├── ChangepasswordFragment$4.class
-│   │               │   ├── ChangepasswordFragment$5.class
 │   │               │   ├── ChangepasswordFragment$ChangePassword.class
 │   │               │   ├── ChangepasswordFragment.class
 │   │               │   ├── FeedbackFragment$1.class
