@@ -87,8 +87,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   │               ├── AddEmail$2.class
 │   │               ├── AddEmail$3.class
 │   │               ├── AddEmail$4.class
-│   │               ├── AddEmail$5.class
-│   │               ├── AddEmail$6.class
 │   │               ├── AddEmail$ImageGalleryTask.class
 │   │               ├── AddEmail$PostEmail.class
 │   │               ├── AddEmail.class
