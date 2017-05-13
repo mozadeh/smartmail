@@ -95,8 +95,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   │               ├── BuildConfig.class
 │   │               ├── Contact.class
 │   │               ├── ContactAdapter.class
-│   │               ├── CustomSimpleAdapter$1.class
-│   │               ├── CustomSimpleAdapter$ContactHolder.class
 │   │               ├── CustomSimpleAdapter.class
 │   │               ├── CustomTypefaceSpan.class
 │   │               ├── Email.class
