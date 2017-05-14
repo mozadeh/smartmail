@@ -1,4 +1,4 @@
-#Smart Mail
+## Smart Mail
 
 ![alt tag](https://raw.githubusercontent.com/mozadeh/smartmail/master/new_logo.jpg)
 
