@@ -83,8 +83,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   │           └── smartmail
 │   │               ├── AddEmail$1.class
 │   │               ├── AddEmail$2.class
-│   │               ├── AddEmail$3.class
-│   │               ├── AddEmail$4.class
 │   │               ├── AddEmail$ImageGalleryTask.class
 │   │               ├── AddEmail$PostEmail.class
 │   │               ├── AddEmail.class
@@ -104,8 +102,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   │               ├── EmailPullService.class
 │   │               ├── EmailReceiver.class
 │   │               ├── EmailsFragment$1.class
-│   │               ├── EmailsFragment$2.class
-│   │               ├── EmailsFragment$3.class
 │   │               ├── EmailsFragment$DeleteEmail.class
 │   │               ├── EmailsFragment$DeleteEmailInbox.class
 │   │               ├── EmailsFragment$LoadEmails.class
