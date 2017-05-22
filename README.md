@@ -173,8 +173,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   │               │   ├── AboutFragment.class
 │   │               │   ├── ChangepasswordFragment$1.class
 │   │               │   ├── ChangepasswordFragment$2.class
-│   │               │   ├── ChangepasswordFragment$3.class
-│   │               │   ├── ChangepasswordFragment$4.class
 │   │               │   ├── ChangepasswordFragment$ChangePassword.class
 │   │               │   ├── ChangepasswordFragment.class
 │   │               │   ├── FeedbackFragment$1.class
