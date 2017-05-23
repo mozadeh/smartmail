@@ -154,8 +154,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   │               ├── ReadEmails.class
 │   │               ├── Register$1.class
 │   │               ├── Register$2.class
-│   │               ├── Register$3.class
-│   │               ├── Register$4.class
 │   │               ├── Register$CreateUser.class
 │   │               ├── Register$ItemFragment$CheckUserName.class
 │   │               ├── Register$ItemFragment.class
