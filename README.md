@@ -127,8 +127,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   │               ├── NotificationOpen.class
 │   │               ├── PreviewEmail$1.class
 │   │               ├── PreviewEmail$2.class
-│   │               ├── PreviewEmail$3.class
-│   │               ├── PreviewEmail$4.class
 │   │               ├── PreviewEmail$DeleteEmail.class
 │   │               ├── PreviewEmail$DownloadTask.class
 │   │               ├── PreviewEmail$MakeEdits.class
