@@ -144,12 +144,10 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   │               ├── R$style.class
 │   │               ├── R.class
 │   │               ├── ReadEmails$1.class
-│   │               ├── ReadEmails$2.class
 │   │               ├── ReadEmails$SectionsPagerAdapter.class
 │   │               ├── ReadEmails$SlideMenuClickListener.class
 │   │               ├── ReadEmails.class
 │   │               ├── Register$1.class
-│   │               ├── Register$2.class
 │   │               ├── Register$CreateUser.class
 │   │               ├── Register$ItemFragment$CheckUserName.class
 │   │               ├── Register$ItemFragment.class
@@ -157,7 +155,6 @@ link to key classes used in app: [https://github.com/mozadeh/smartmail/tree/mast
 │   │               ├── Register.class
 │   │               ├── SendMailTask.class
 │   │               ├── SingleEmail$1.class
-│   │               ├── SingleEmail$2.class
 │   │               ├── SingleEmail$DeleteEmail.class
 │   │               ├── SingleEmail$LoadMail.class
 │   │               ├── SingleEmail.class
